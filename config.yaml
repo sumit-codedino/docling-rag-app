@@ -1,0 +1,29 @@
+# PDF to Markdown Converter Configuration
+# This file can be used to customize the converter behavior
+
+# Financial keywords for table detection
+financial_keywords:
+  - "Revenue from Operations"
+  - "31.03.2025"
+  - "31.03.2024"
+  - "31.12.2024"
+  - "Total Revenue"
+  - "Net Profit"
+
+# Table extraction settings
+accuracy_threshold: 50 # Minimum accuracy for Camelot tables
+min_table_rows: 2 # Minimum rows for a valid table
+max_retries: 3 # Maximum retry attempts for failed extractions
+retry_delay: 1 # Delay between retries in seconds
+
+# Extraction method priority (first methods are tried first)
+extraction_methods:
+  - "camelot" # Best for structured tables
+  - "img2table" # Good for complex layouts with OCR
+  - "tabula" # Java-based extraction
+  - "pdfplumber" # Python-based extraction
+
+# Output settings
+output_format: "markdown" # Currently only markdown is supported
+include_page_numbers: true
+include_table_numbers: true

@@ -1,0 +1,30 @@
+{
+  "company_name": "Emami",
+  "quarter_year": "4QFY25",
+  "data": {
+    "unit_of_measure": "Lacs",
+    "currency": "INR",
+    "_31_03_25_quarter_results": {
+      "revenue": 44202.32,
+      "cost_of_materials_consumed": 832.96,
+      "purchase_of_stock_in_trade": 1088.47,
+      "changes_in_inventories": 4021.19,
+      "profit_before_tax": 8727.05,
+      "finance_costs": 179.18,
+      "depreciation_and_amortisation": 1305.98,
+      "total_tax_expenses": 2616.01,
+      "other_income": 1115.56
+    },
+    "_31_03_24_quarter_results": {
+      "revenue": 36831.16,
+      "cost_of_materials_consumed": 2301.38,
+      "purchase_of_stock_in_trade": 3716.5,
+      "changes_in_inventories": -4635.36,
+      "profit_before_tax": 8149.54,
+      "finance_costs": 70.17,
+      "depreciation_and_amortisation": 1317.63,
+      "total_tax_expenses": 2247.98,
+      "other_income": 1528.05
+    }
+  }
+}

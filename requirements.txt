@@ -1,0 +1,22 @@
+# Core dependencies
+pandas>=1.3.0
+numpy>=1.21.0
+
+# PDF processing libraries (at least one required)
+PyMuPDF>=1.20.0
+pdfplumber>=0.7.0
+docling>=0.1.0
+
+# Table extraction libraries
+camelot-py>=0.10.0
+tabula-py>=2.5.0
+img2table>=1.0.0
+
+# Configuration and utilities
+PyYAML>=6.0
+tqdm>=4.64.0
+tabulate>=0.8.0  # For pandas.to_markdown()
+
+# Optional: OCR dependencies for img2table
+# tesseract-ocr (system package)
+# java (system package for tabula-py)
